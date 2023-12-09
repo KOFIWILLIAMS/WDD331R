@@ -1,0 +1,57 @@
+@import 'variables';
+
+body {
+    color: $white;
+    font-family: $main_font;
+    margin: 0;
+    background: radial-gradient(circle, $darkpink, $darkpurple);
+}
+
+h1 {
+    font-family: $heading_font;
+    color: $teal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-shadow: 2px 4px $pink;
+    text-align: center;
+    line-height: 3rem;
+}
+
+h2 {
+    font-family: $heading_font;
+    color: $purple;
+    text-shadow: 2px 2px $white;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+h3 {
+    font-family: $heading_font;
+    color: $yellow;
+    text-shadow: 1px 3px $pink;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem 0.5rem;
+}
+
+p {
+    line-height: 1.3rem;
+    font-size: 1rem;
+}
+
+a {
+    color: $yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    padding: 0.2rem;
+    border: 2px dotted $yellow;
+    line-height: 2rem;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 0.5rem;
+}
